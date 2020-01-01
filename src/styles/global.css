@@ -1,0 +1,177 @@
+/**
+NATIVE ELEMENTS
+*/
+html {
+    background: #a0f0ed;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimize-legibility;
+    font-size: 100%;
+}
+body {
+    margin: 0;
+    padding-bottom: 3rem;
+}
+h1 {
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+}
+button.plain {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    font-weight: bold;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: .75rem;
+    padding: .5rem 0rem;
+}
+button.metric {
+    background: #999;
+    color: #FFF;
+    padding: .5rem .75rem;
+    cursor: pointer;
+    margin-left: 1px;
+}
+button.metric.active {
+    background: #000;
+}
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 1rem;
+    position: relative;
+}
+.icon img {
+    display: block;
+}
+.headline {
+    position: sticky;
+    background: #a0f0ed;
+    top: 0;
+    margin: 0;
+    padding: 1rem 0;
+    font-weight: bold;
+    border-bottom: 4px solid #000;
+}
+.headline--lg {
+    font-size: 1.5rem;
+}
+.time {
+    text-transform: uppercase;
+}
+.error,
+.loading {
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+/**
+METRIC BUTTONS
+*/
+.metric-buttons {
+    position: absolute;
+    right: 1rem;
+    top: 1.25rem;
+}
+/**
+SEARCH FORM
+*/
+.searchForm__inner {
+    display: flex;
+}
+.searchForm__input {
+    font-size: 1rem;
+    padding: 1.2rem 1rem;
+    border: none;
+    flex: 1;
+    background: #FFF;
+}
+.searchForm__button {
+    font-size: 1rem;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    background: #000;
+    color: #FFF;
+    border: 1px solid #000;
+}
+/**
+WEATHER LISTING
+*/
+.weather__day {
+    margin-top: 2rem;
+}
+.weather__hours {
+    align-items: center;
+}
+.weather__time {
+    width: 3.5rem;
+}
+.weather__card {
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    padding: 1rem;
+    margin-bottom: 1px;
+}
+
+.weather__description {
+    text-transform: capitalize;
+    padding-left: .5rem;
+}
+.weather__card .temp {
+    font-size: 1.5rem;
+    flex: 1;
+    text-align: right;
+}
+/**
+TODAY
+*/
+.today {
+    padding: 2.5rem 0 0;
+}
+.today__inner {
+    background: #FFF;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+}
+.today__temp-icon {
+    display: flex;
+    align-items: center;
+}
+.today__temp-icon img {
+    margin-right: 1rem;
+}
+.today__listing {
+    flex: 1;
+}
+.today__listing-item {
+    padding: 0 0 .75rem;
+    border-bottom: 1px solid #000;
+    text-transform: capitalize;
+}
+.today .temp {
+    font-size: 3.5rem;
+}
+.today__description {
+    text-transform: capitalize;
+}
+/**
+FOOTER
+*/
+.footer {
+    background: #a0f0ed;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 1.5rem 0;
+    font-size: .75rem;
+    text-align: left;
+}
+.footer a {
+    color: #000;
+}
